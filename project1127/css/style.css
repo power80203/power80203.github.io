@@ -1,22 +1,10 @@
-body {
+/*
+body 
+
     background-image: url(https://source.unsplash.com/1000x500?animal);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    /*   fixed 可以讓圖固定然後內容會往上捲 */
-}
-
-
-/*
-Header
-*/
-
-header {
-    /*    height: 300px;*/
-    color: white;
-    /*    background-image: url(https://source.unsplash.com/1000x200?food);*/
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+ fixed 可以讓圖固定然後內容會往上捲 */
 
 
 /*
@@ -24,12 +12,12 @@ header {
 */
 
 blockquote {
-    background-image: url(https://source.unsplash.com/300x400?food);
+    background-image: url(../images/quotation.jpg);
     background-size: 30px 30px;
     background-repeat: no-repeat;
     padding-left: 50px;
     /*    background-position: 1px 80px;*/
-    background-position: right bottom;
+    background-position: left top;
 }
 
 
@@ -87,4 +75,17 @@ blockquote {
 
 .caption-btn:active {
     color: #d6546d;
+}
+
+
+/*
+Header
+*/
+
+.header {
+    height: 300px;
+    color: white;
+    background-image: url(https://source.unsplash.com/300x300?Nature);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
