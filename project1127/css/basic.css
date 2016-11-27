@@ -1,0 +1,13 @@
+/*
+所有標籤基礎設定
+*/
+
+* {
+    box-sizing: border-box;
+    letter-spacing: 1px;
+}
+
+
+/*
+常用圖片設定
+*/
