@@ -1,0 +1,15 @@
+.div1 {
+    width: calc(25% - 10px);
+    color: #775858;
+    float: left;
+    margin: 50px;
+    text-align: center;
+}
+
+.h1 {
+    font-size: 30px;
+}
+
+.toptitle {
+    font-size: 45px;
+}
