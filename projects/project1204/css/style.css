@@ -96,9 +96,7 @@ h1 {
 /*進行iphone模板設定*/
 
 .iphonese {
-    position: fixed;
-    top: -75px;
-    left: 300px;
+    position: relative;
     margin: 80px;
     /*    background-image: url(../images/ddd.jpg);*/
     background: rgba(255, 251, 251, 0.72);
