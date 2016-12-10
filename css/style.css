@@ -44,6 +44,7 @@ ul.drop-dwon-menu>li {
     display: inline-block;
     background: pink;
     text-decoration: none;
+    position: relative;
 }
 
 .drop-dwon-menu li a {
@@ -73,7 +74,7 @@ ul.drop-dwon-menu>li>li {
 .drop-dwon-menu ul {
     position: absolute;
     top: 50px;
-    left: 443px;
+    left: 0;
     min-width: 152px;
     text-decoration: none;
 }
