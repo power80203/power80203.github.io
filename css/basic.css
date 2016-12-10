@@ -1,0 +1,79 @@
+/* box model 設定*/
+
+* {
+    box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+article,
+section,
+div,
+nav,
+aside {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*container*/
+
+.container {
+    width: 90%;
+    margin: 0px auto;
+    overflow: auto;
+}
+
+
+/* 圖片模組 */
+
+.thumbnail {
+    border: 1px solid #ddd;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.thumbnail img {
+    width: 100%;
+}
+
+.thumbnail .caption h3 {
+    font-size: 1em;
+}
+
+.thumbnail .caption p {
+    font-size: 0.75em;
+}
+
+
+/* 基本的導覽列設定 */
+
+nav li>ul {
+    display: none;
+}
+
+nav li:hover>ul {
+    display: block;
+}
+
+nav ul {
+    padding: 0px;
+}
+
+nav li {
+    list-style-type: none;
+}
+
+nav li>ul>li {}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}

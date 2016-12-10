@@ -1,0 +1,56 @@
+/*Header 設定*/
+
+header {
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    background-image: url(/images/photo-1435819895340-68e5ab6016a9.jpg);
+    color: white;
+    margin: 0px;
+}
+
+
+/*nav 設定*/
+
+nav {
+    width: 100%;
+    text-align: center;
+}
+
+nav .drop-down-menu {
+    padding: 0px;
+    margin: 0px;
+}
+
+nav .drop-down-menu li {
+    height: 50px;
+    width: 100px;
+    line-height: 50px;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    display: inline-block;
+    border: 1px solid;
+}
+
+nav .drop-down-menu li:hover>ul {
+    display: block;
+}
+
+
+/*次選單設定*/
+
+nav .drop-down-menu li ul {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    display: none;
+}
+
+nav .drop-down-menu li ul li {
+    height: 50px;
+    width: 100px;
+    line-height: 50px;
+    padding: 0px;
+    margin: 0px;
+}

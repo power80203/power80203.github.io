@@ -1,0 +1,101 @@
+header {
+    font-size: 54px;
+    height: 70px;
+    margin: auto;
+    padding: 0px;
+    text-align: center;
+    background: black;
+    color: white;
+}
+
+
+/*內容設定*/
+
+content {
+    width: 100%;
+    padding: 0px;
+    margin: auto;
+}
+
+content .container {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.container h1 {
+    color: blue;
+}
+
+
+/*drop-down-menu設定*/
+
+ul.drop-dwon-menu {
+    background: rgba(142, 142, 193, 0.74);
+    text-align: center;
+    text-decoration: none;
+}
+
+ul.drop-dwon-menu>li {
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    border: 1px solid;
+    display: inline-block;
+    background: pink;
+    text-decoration: none;
+}
+
+.drop-dwon-menu li a {
+    text-decoration: none;
+}
+
+ul.drop-dwon-menu>li>li {
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+    border: 1px solid;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.drop-dwon-menu {
+    height: 50px;
+    position: relative;
+    text-decoration: none;
+}
+
+.drop-dwon-menu li ul {
+    display: none;
+    text-decoration: none;
+}
+
+.drop-dwon-menu ul {
+    position: absolute;
+    top: 50px;
+    left: 369px;
+    min-width: 152px;
+    text-decoration: none;
+}
+
+.drop-dwon-menu li:hover>ul {
+    display: block;
+}
+
+.drop-dwon-menu li:hover>ul>li a {
+    display: block;
+    width: 100%;
+    background: #3eba77;
+    border: 1px solid;
+    color: white;
+    margin: 0px;
+    text-decoration: none;
+}
+
+
+/*footer設定*/
+
+footer {
+    background: black;
+    color: aliceblue;
+}
