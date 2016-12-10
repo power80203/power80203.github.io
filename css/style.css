@@ -75,8 +75,9 @@ ul.drop-dwon-menu>li>li {
     position: absolute;
     top: 50px;
     left: 0;
-    min-width: 152px;
+    width: 100%;
     text-decoration: none;
+    margin: 0px;
 }
 
 .drop-dwon-menu li:hover>ul {
