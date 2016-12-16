@@ -1,8 +1,25 @@
+/*專放reset and boxsizing*/
+
+
+/*還有專門放字型字體*/
+
+
 /* box model 設定*/
 
 * {
     box-sizing: border-box;
 }
+
+
+/* Container */
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+/* Reset CSS */
 
 body,
 h1,
@@ -16,18 +33,10 @@ article,
 section,
 div,
 nav,
-aside {
+aside,
+.box {
     margin: 0;
     padding: 0;
-}
-
-
-/*container*/
-
-.container {
-    width: 90%;
-    margin: 0px auto;
-    overflow: auto;
 }
 
 
@@ -39,7 +48,7 @@ aside {
     border-radius: 5px;
 }
 
-.thumbnail img {
+thumbnail img {
     width: 100%;
 }
 
@@ -52,7 +61,7 @@ aside {
 }
 
 
-/* 基本的導覽列設定 */
+/*基本的導覽列設定 */
 
 nav li>ul {
     display: none;
@@ -70,8 +79,4 @@ nav li {
     list-style-type: none;
 }
 
-ul {
-    margin: 0px;
-    padding: 0px;
-    list-style: none;
-}
+nav li>ul>li {}

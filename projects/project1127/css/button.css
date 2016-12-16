@@ -1,0 +1,12 @@
+.btn-home a {
+    position: fixed;
+    top: 90%;
+    left: 83%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    width: 200px;
+    background: #aa8b8b;
+    border-radius: 20px;
+    opacity: 0.8;
+}
