@@ -2,7 +2,6 @@
  
  .nav {
      height: 64px;
-     position: fixed;
      margin: 0px auto;
      overflow: auto;
      background: black;
@@ -94,31 +93,28 @@
  /*section-3 設定*/
  
  .section-3 {
-     height:20%;
+     height: 20%;
      border: 1px solid gray;
-background-color: black;
+     background-color: black;
      color: #ba8133;
  }
  
-.section-3 p{
-    vertical-align: middle;
-    
-}
-
+ .section-3 p {
+     vertical-align: middle;
+ }
+ 
  .section-3 p:after {
      content: "";
-     width:90%;
+     width: 90%;
      border: 1px solid #eb8a28;
      display: inline-block;
-
  }
-
-.section-3 #footer{
  
-    height: 100%;
-    line-height: 50px;
-    text-align: center;
-}
+ .section-3 #footer {
+     height: 100%;
+     line-height: 50px;
+     text-align: center;
+ }
  /*section-3 設定結束*/
  /*footer*/
  
