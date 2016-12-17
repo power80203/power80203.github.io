@@ -1,0 +1,177 @@
+/*一般設定*/
+
+.container {
+    width: 90%;
+}
+
+
+/*一般設定結束*/
+
+.container-head {
+    width: 100%;
+    background: black;
+    color: wheat;
+}
+
+header {
+    height: 50px;
+    position: relative;
+    color: darkgray;
+}
+
+header .row {
+    line-height: 35px;
+}
+
+.head {
+    border-radius: 50%;
+    height: 40px;
+}
+
+.thm {
+    min-width: 100%;
+}
+
+#logo-box {
+    position: relative;
+}
+
+#logo-box img {
+    position: absolute;
+    top: -179px;
+    left: -200px;
+    border: 5px solid white;
+}
+
+#headerpng {
+    /*position: absolute;*/
+    /*top:5px;*/
+}
+
+h3 {
+    color: green;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+#job {
+    position: relative;
+}
+
+#job .col-md-7 {
+    border-bottom: 0.5px solid #d3d3d3;
+    border-right: 0.5px solid #d3d3d3;
+    border-left: 0.5px solid #d3d3d3;
+}
+
+#job span {
+    float: left;
+}
+
+#job .col-md-7:hover {
+    box-shadow: 1px 1px 1px 1px;
+}
+
+.apply a {
+    text-decoration: none;
+    color: white;
+}
+
+.apply {
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    padding: 0px;
+    background: #129e5f;
+    color: white;
+    border-radius: 20px;
+}
+
+.apply:hover {
+    background: #448d44;
+    color: white;
+}
+
+
+/*footer設定*/
+
+footer {
+    background: #6A6A6A;
+    height: 300px;
+}
+
+footer .thead {
+    color: greenyellow;
+}
+
+footer input:after {
+    content: "123";
+}
+
+
+/*footer設定結束*/
+
+[id*="logo"] {
+    color: gray;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #77ac27;
+}
+
+
+/**/
+
+.btn {
+    color: black;
+    background: #d17d7d;
+    opacity: 0.8;
+    border-radius: 20px;
+    padding: 8px;
+}
+
+.btn-home {
+    height: 50px;
+    width: 20%;
+    background: #aabf36;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.btn-home-2 {
+    position: fixed;
+    top: 90%;
+    left: 90%;
+    height: 3em;
+    width: 8%;
+    background: #aabf36;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 3em;
+    text-align: center;
+    z-index: 99;
+}
+
+btn-home-3 {
+    position: fixed;
+    color: black;
+    top: 50px;
+    left: 10%;
+    height: 3em;
+    width: 8%;
+    background: #aabf36;
+    border-radius: 30px;
+    text-align: center;
+    line-height: 3em;
+    text-align: center;
+    z-index: 99;
+}

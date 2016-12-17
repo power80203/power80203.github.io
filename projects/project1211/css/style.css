@@ -148,11 +148,13 @@ a:hover {
 }
 
 .btn-home-2 {
+    font-size: 1em;
+    padding: 0px;
     position: fixed;
     top: 90%;
-    left: 90%;
+    left: 92%;
     height: 3em;
-    width: 8%;
+    width: 4.3em;
     background: #aabf36;
     border-radius: 20px;
     text-align: center;

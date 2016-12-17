@@ -106,29 +106,30 @@ header {
 
 .row h1:after {
     content: "";
-    width: 200px;
+    width: 20%;
     border: 1px solid;
-    display: block;
-    position: absolute;
-    top: 53%;
-    left: 80%;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 20px;
 }
 
 .row h1:before {
     content: "";
-    width: 200px;
+    width: 20%;
     border: 1px solid;
-    display: block;
-    position: absolute;
-    top: 53%;
-    left: -39%;
+    display: inline-block;
+    vertical-align: middle;
+       margin: 20px;
 }
 
-btn-home-3 {
+
+/*針對返回鍵做設定*/
+
+.btn-home-3 {
     position: fixed;
     color: black;
-    top: 50px;
-    left: 10%;
+    top: 90%;
+    left: 90%;
     height: 3em;
     width: 8%;
     background: #aabf36;
@@ -137,4 +138,12 @@ btn-home-3 {
     line-height: 3em;
     text-align: center;
     z-index: 99;
+}
+
+.btn-home-3 a {
+    text-decoration: none;
+}
+
+#backtohome:after {
+    display: none;
 }

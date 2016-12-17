@@ -56,22 +56,21 @@ aside,
 
 
 /* 基本的導覽列設定 
-
 nav li>ul {
     display: none;
 }
-
 nav li:hover>ul {
     display: block;
 }
-
 nav ul {
     padding: 0px;
 }
-
 nav li {
     list-style-type: none;
 }
-
 nav li>ul>li {}
 */
+
+li {
+    list-style-type: none;
+}
