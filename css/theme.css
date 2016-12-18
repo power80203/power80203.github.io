@@ -17,10 +17,11 @@
      width: 100%;
      background: black;
      position: fixed;
+     z-index: 99;
  }
  
  .nav img {
-     height: 33px;
+     height: 1.5em;
  }
  
  .nav a {
